@@ -110,9 +110,9 @@ class Swiper{
 		sb.append(File.separator);
 		sb.append(year);
 		sb.append(File.separator);
-		sb.append(month);
+		sb.append(month+"월");
 		sb.append(File.separator);
-		sb.append(day + "월");
+		sb.append(day + "일");
 		sb.append(File.separator);
 		sb.append(getTitle());	// 제목을 추출후 폴더명으로
 		sb.append(File.separator);
